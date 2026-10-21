@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation | Assignment 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/dom.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="navwrap">
+        <a class="brand" href="index.html">JS<span>Lab.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="index.html" class="">JavaScript Basics</a
+          ><a href="dom.html" class="active">DOM Manipulation</a
+          ><a href="events.html" class="">Events</a
+          ><a href="calculator.html" class="">Calculator</a
+          ><a href="todo.html" class="">To-Do App</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="eyebrow">WEB TECHNOLOGIES / ASSIGNMENT 05</div>
+      <h1>DOM Manipulation</h1>
+      <p class="lead">JavaScript Basics — DOM Manipulation &amp; Events</p>
+      <section class="card">
+        <span class="tag">TASK 2</span>
+        <h2>Changing Content</h2>
+        <p id="changeText">This is the original paragraph text.</p>
+        <button id="changeTextBtn">Change paragraph text</button>
+      </section>
+      <section class="card">
+        <span class="tag">TASK 3</span>
+        <h2>Changing Styles</h2>
+        <div id="styleBox" class="sample-box">
+          Watch this block change its background and text size.
+        </div>
+        <div class="controls">
+          <button id="backgroundBtn">Change background</button
+          ><button id="fontBtn" class="secondary">Increase font size</button>
+        </div>
+      </section>
+      <section class="card">
+        <span class="tag">TASK 4</span>
+        <h2>Creating &amp; Removing Elements</h2>
+        <ul id="itemList" class="plain-list">
+          <li>Starter item</li>
+        </ul>
+        <div class="controls">
+          <button id="addItemBtn">Add Item</button
+          ><button id="removeItemBtn" class="danger">Remove Item</button>
+        </div>
+        <p id="listMessage" class="muted" aria-live="polite"></p>
+      </section>
+    </main>
+    <footer>
+      Assignment #5 · HTML / CSS / JavaScript · <span id="year">2026</span>
+    </footer>
+  </body>
+</html>

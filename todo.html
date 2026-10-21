@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive To-Do List | Assignment 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/todo.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="navwrap">
+        <a class="brand" href="index.html">JS<span>Lab.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="index.html" class="">JavaScript Basics</a
+          ><a href="dom.html" class="">DOM Manipulation</a
+          ><a href="events.html" class="">Events</a
+          ><a href="calculator.html" class="">Calculator</a
+          ><a href="todo.html" class="active">To-Do App</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="eyebrow">WEB TECHNOLOGIES / ASSIGNMENT 05</div>
+      <h1>Interactive To-Do List</h1>
+      <p class="lead">JavaScript Basics — DOM Manipulation &amp; Events</p>
+      <section class="card">
+        <span class="tag">TASK 8 · MINI PROJECT</span>
+        <h2>My Tasks</h2>
+        <p>
+          Add tasks, mark them as completed, or delete them. Tasks are stored in
+          a JavaScript array during this page session only.
+        </p>
+        <form id="todoForm" class="todo-input">
+          <input
+            id="taskInput"
+            type="text"
+            maxlength="160"
+            placeholder="What needs to be done?"
+            aria-label="New task"
+          /><button type="submit">Add Task</button>
+        </form>
+        <p id="todoMessage" class="muted" role="status"></p>
+        <ul id="todoList" class="todo-list" aria-label="To-do tasks"></ul>
+        <p id="todoCount" class="todo-count">0 tasks · 0 completed</p>
+      </section>
+    </main>
+    <footer>
+      Assignment #5 · HTML / CSS / JavaScript · <span id="year">2026</span>
+    </footer>
+  </body>
+</html>

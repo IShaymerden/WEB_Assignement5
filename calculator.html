@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator | Assignment 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/calculator.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="navwrap">
+        <a class="brand" href="index.html">JS<span>Lab.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="index.html" class="">JavaScript Basics</a
+          ><a href="dom.html" class="">DOM Manipulation</a
+          ><a href="events.html" class="">Events</a
+          ><a href="calculator.html" class="active">Calculator</a
+          ><a href="todo.html" class="">To-Do App</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="eyebrow">WEB TECHNOLOGIES / ASSIGNMENT 05</div>
+      <h1>Simple Calculator</h1>
+      <p class="lead">JavaScript Basics — DOM Manipulation &amp; Events</p>
+      <section class="card">
+        <span class="tag">TASK 7</span>
+        <h2>Four Arithmetic Operations</h2>
+        <p>Enter two numbers and choose an operation.</p>
+        <div class="calc-inputs">
+          <input
+            type="number"
+            id="number1"
+            placeholder="First number"
+            step="any"
+            aria-label="First number"
+          /><input
+            type="number"
+            id="number2"
+            placeholder="Second number"
+            step="any"
+            aria-label="Second number"
+          />
+        </div>
+        <div class="controls">
+          <button data-operation="add">+ Add</button
+          ><button data-operation="subtract">− Subtract</button
+          ><button data-operation="multiply">× Multiply</button
+          ><button data-operation="divide">÷ Divide</button>
+        </div>
+        <div class="result-panel">
+          <div class="muted">Result</div>
+          <div id="calcResult" class="result" aria-live="polite">
+            Enter numbers to begin
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Assignment #5 · HTML / CSS / JavaScript · <span id="year">2026</span>
+    </footer>
+  </body>
+</html>

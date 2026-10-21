@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Events | Assignment 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/events.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="navwrap">
+        <a class="brand" href="index.html">JS<span>Lab.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="index.html" class="">JavaScript Basics</a
+          ><a href="dom.html" class="">DOM Manipulation</a
+          ><a href="events.html" class="active">Events</a
+          ><a href="calculator.html" class="">Calculator</a
+          ><a href="todo.html" class="">To-Do App</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="eyebrow">WEB TECHNOLOGIES / ASSIGNMENT 05</div>
+      <h1>JavaScript Events</h1>
+      <p class="lead">JavaScript Basics — DOM Manipulation &amp; Events</p>
+      <section class="card">
+        <span class="tag">TASK 5</span>
+        <h2>Mouse Events</h2>
+        <p>
+          Move your mouse over the box to change its color; move away to restore
+          it.
+        </p>
+        <div id="hoverBox" class="hover-box">Hover over me!</div>
+      </section>
+      <section class="card">
+        <span class="tag">TASK 6</span>
+        <h2>Keyboard Events</h2>
+        <p>
+          Type into the field. The text below updates on each
+          <code>keyup</code> event.
+        </p>
+        <input
+          id="keyboardInput"
+          type="text"
+          placeholder="Start typing..."
+          aria-label="Keyboard event text input"
+        />
+        <p>
+          <strong>Current input:</strong> <span id="liveText">(empty)</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      Assignment #5 · HTML / CSS / JavaScript · <span id="year">2026</span>
+    </footer>
+  </body>
+</html>
