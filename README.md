@@ -4,10 +4,9 @@ A responsive multi-page website completing **Task 0–8** from Assignment #5: Ja
 
 ## Student information
 
-- **Full name:** Iskander Shaimerdinov Iskander
+- **Full name:** Iskander Shaimerdinov 
 - **Group:** SE - 2524
 
-> Before submitting, replace these placeholders here and in `js/intro.js`.
 
 ## Pages and tasks
 
