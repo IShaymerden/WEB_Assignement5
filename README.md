@@ -5,6 +5,7 @@ A responsive multi-page website completing **Task 0–8** from Assignment #5: Ja
 ## Student information
 
 - **Full name:** Iskander Shaimerdinov 
+
 - **Group:** SE - 2524
 
 
